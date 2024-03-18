@@ -1,18 +1,52 @@
-body {
-    font-family: Arial, sans-serif;
+  body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("patrick-hendry-_lofCeUHMOo-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
   }
-  
+
+  p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .intro {
+    color: rgb(24, 96, 23);
+    font-size: larger;
+    opacity: 1;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #fff;
+  }
+  .introbg {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, 0.537) ; 
+    border-radius: 20%;  
+  }
+
   header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+    
+  }
+  nav ul li :hover {
+color: rgb(22, 148, 20) ;
   }
   
   header h1 {
     margin: 0;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: rgb(29, 121, 28);
   }
   
   nav ul {
@@ -34,9 +68,6 @@ body {
     text-decoration: none;
   }
   
-  main {
-    padding: 20px;
-  }
   
   footer {
     background-color: #333;
@@ -45,7 +76,7 @@ body {
     text-align: center;
   }
 
-main {
+  main {
     padding: 20px;
     display: flex;
     justify-content: space-around;
@@ -53,12 +84,13 @@ main {
   }
   
   .product {
-    width: 30%;
+    width: 80%;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
+    border-radius: 5%;
   }
   
   .product img {
@@ -73,4 +105,13 @@ main {
   .product p {
     margin: 5px 0;
   }
-          
+
+  .rutor{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  justify-items: center;
+}
+
