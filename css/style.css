@@ -6,6 +6,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   p {
@@ -13,15 +16,15 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
-    margin: 20px;
+    margin: 20px; 
   }
 
   .intro {
-    color: rgb(24, 96, 23);
+    color: rgb(255, 255, 255);
     font-size: larger;
     opacity: 1;
     -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: rgb(12, 168, 17);
   }
   .introbg {
     width: 80%;
@@ -39,7 +42,7 @@
     
   }
   nav ul li :hover {
-color: rgb(22, 148, 20) ;
+    color: rgb(22, 148, 20) ;
   }
   
   header h1 {
@@ -68,12 +71,12 @@ color: rgb(22, 148, 20) ;
     text-decoration: none;
   }
   
-  
   footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-top: auto;
   }
 
   main {
@@ -85,14 +88,14 @@ color: rgb(22, 148, 20) ;
   
   .product {
     width: 80%;
-    background-color: #f9f9f9;
-    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border: 9px solid rgb(221, 221, 221);
     text-align: center;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5%;
   }
-  
+   
   .product img {
     max-width: 100%;
     height: auto;
@@ -106,6 +109,12 @@ color: rgb(22, 148, 20) ;
     margin: 5px 0;
   }
 
+  .rutor :hover {
+    color: #14a312;
+    box-shadow: 0 0 5px #14a312;
+   
+  }
+
   .rutor{
   width: 90%;
   margin-left: auto;
@@ -113,5 +122,23 @@ color: rgb(22, 148, 20) ;
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
   justify-items: center;
+  margin-top: 20px;
 }
+
+.kontakt {
+  justify-items: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+}
+
+.kontakt p {
+  justify-content: center; 
+  font-size: 30px;
+  color: #fff;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: rgb(29, 121, 28);
+}
+
 
