@@ -10,26 +10,45 @@
   <header>
     <h1>EnaVed</h1>
     <nav>
-      <ul>
+      <ul id="link_list">
         <li><a href="index.html">Hem</a></li>
         <li><a href="produkter.html">Produkter</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="varukorg.html">Varukorg</a></li>
       </ul>
+
+      <section id="burger" onclick="show()">
+        <div id="burger_line_1" class="burger_line"></div>
+        <div id="burger_line_2" class="burger_line"></div>
+        <div id="burger_line_3" class="burger_line"></div>
+      </section>
     </nav>
+  
   </header>
 
   <main>
     <div class="kontakt">
-      <img src="img/455705.png" alt="telefon"> 
-      <img src="img/mail-6.png" alt="mail">
-      <p>076-130-20-94</p>
-      <p>max.larsson125@gmail.com</p>
+      <div>
+        <img src="img/455705.png" alt="telefon"> 
+        <p>076-130-20-94</p>
+      </div>
+      <div>
+        <img src="img/mail-6.png" alt="mail">
+        <p>max.larsson125@gmail.com</p>
+      </div>
+      <div>
+        <img class="instagram" src="img/instagram.png" alt="instagram">
+        <p>enaved</p>
+      </div>
     </div>
+
   </main>
 
   <footer>
     <p>Svensk högkvalitativ ved till lågt pris</p>
   </footer>
+
+  <script src="js/script.js"></script>
+
 </body>
 </html>

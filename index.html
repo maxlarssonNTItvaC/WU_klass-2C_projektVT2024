@@ -5,20 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EnaVed</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="js/script.js"></script>
 </head>
 <body>
   <header>
     <h1>EnaVed</h1>
     <nav>
-      <ul>
+      <ul id="link_list">
         <li><a href="index.html">Hem</a></li>
         <li><a href="produkter.html">Produkter</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="varukorg.html">Varukorg</a></li>
       </ul>
+    
+        <section id="burger"  onclick="show()">
+          <div id="burger_line_1" class="burger_line"></div>
+          <div id="burger_line_2" class="burger_line"></div>
+          <div id="burger_line_3" class="burger_line"></div>
+        </section>
     </nav>
+
   </header>
 
   <main>
@@ -27,7 +32,7 @@
     <p class="intro">Välkommen till EnaVed!
       Är du ute efter ved av högsta kvalitet till ett bra pris? Då har du hittat rätt! Vi på EnaVed brinner för ved (ursäkta ordvitsen) och erbjuder ett brett utbud av olika typer av ved för alla behov.
       
-      Oavsett om du vill ha ved för att värma upp ditt hem, mysa framför en brasa eller laga mat i din ugn, har vi veden för dig. Vi levererar ved i hela göteborg och värmland och du kan beställa enkelt och bekvämt online.</p> 
+      Oavsett om du vill ha ved för att värma upp ditt hem, mysa framför en brasa eller laga mat i din ugn, har vi veden för dig. Vi levererar ved i hela Göteborg, Värmland och allt där immelan, du kan beställa enkelt och bekvämt online.</p> 
     </div>
     <div class="rutor">
     
@@ -52,5 +57,8 @@
   <footer>
     <p>Svensk högkvalitativ ved till lågt pris</p>
   </footer>
+
+  <script src="js/script.js"></script>
+
 </body>
 </html>

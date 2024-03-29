@@ -5,28 +5,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EnaVed</title>
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="js/script.js"></script>
+  
 </head>
 <body>
   <header>
     <h1>EnaVed</h1>
     <nav>
-      <ul>
+      <ul  id="link_list">
         <li><a href="index.html">Hem</a></li>
         <li><a href="produkter.html">Produkter</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="varukorg.html">Varukorg</a></li>
       </ul>
+
+      <section id="burger" onclick="show()">
+        <div id="burger_line_1" class="burger_line"></div>
+        <div id="burger_line_2" class="burger_line"></div>
+        <div id="burger_line_3" class="burger_line"></div>
+      </section>
     </nav>
   </header>
 
   <main>
-       
+
+    <div class="varukorg">
+      <div class="köptext">
+        <p>Kul att du är intresserad av att 
+          köpa!<br>Om du har valt en eller flera produkter kan du swisha nu 
+          eller när produkterna kommer fram. <br> Var bara tydlig
+           med vad du har valt i ditt swishmedelande. 
+           <br> Du kan även betala med kontanter på plats!</p>
+
+      </div>
+
+      <div class="swishinfo">
+
+        <img class="swish" src="img/Swish_Logo_Primary_RGB.png" alt="swish">
+      
+        <img class="swish1" src="img/IMG_3023.jpg" alt="swish">
+  
+        <p>076-130-20-94</p>
+  
+      </div>
+    </div>
+
+     
+ 
   </main>
 
   <footer>
     <p>Svensk högkvalitativ ved till lågt pris</p>
   </footer>
+
+  
+  <script src="js/script.js"></script>
 </body>
 </html>
